@@ -16,7 +16,7 @@ body {
   background-image: url("../images/paperwithbrian.png");
 }
 
-.bio {
+.pieces {
   margin-left: 100px;
   margin-top: 160px; 
   margin-right: 30px; 
@@ -28,8 +28,8 @@ body {
   margin-top: 20px;  
 }
 
-#contactpoloroid {
-  height: 260px; 
+#aboutmepoloroid {
+  height: 250px; 
   padding: 5px; 
 }
 
@@ -49,6 +49,11 @@ body {
   margin-left: 20px; 
 }
 
+#contactcap {
+  height: 250px; 
+  padding: 5px; 
+}
+
 #linkedincrayon {
   height: 250px; 
   padding: 5px; 
@@ -65,7 +70,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-#contactpoloroid:hover {
+#aboutmepoloroid:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
@@ -81,6 +86,11 @@ body {
 }
 
 #writingpencil:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite; 
+}
+
+#contactcap:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite; 
 }
@@ -123,21 +133,6 @@ body {
   margin-top: 150px; 
   margin-left: 90px;  
 }
-
-@media only screen and (max-width: 1460px) {
-  .form {
-    width: 300px; 
-  }
-  #name {
-    width: 250px;
-  }
-  #email {
-    width: 250px;
-  }
-  #message {
-    width: 250px;
-  }
-}  
 
 input[type=text], select {
     width: 600px;
